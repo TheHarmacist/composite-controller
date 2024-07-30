@@ -63,6 +63,11 @@ currency_type   = "$"   # Currency Symbol to show when calculating cost to run j
 #
 # Note that NO pins are configured in this file for hardware spi
 
+SPI_SCLK = 11
+SPI_MOSI = 10
+SPI_MISO = 9
+SPI_CS = 5
+
 #######################################
 # SPI pins if you choose software spi #
 #######################################
