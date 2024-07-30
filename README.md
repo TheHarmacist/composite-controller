@@ -1,7 +1,26 @@
 Kiln Controller
 ==========
 
-Turns a Raspberry Pi into an inexpensive, web-enabled kiln controller.
+Turns a Raspberry Pi into an inexpensive, web-enabled Composite Oven controller.
+
+Running Raspberry Pi Zero 2 W on 32bit Desktopless Bullseye OS
+
+$ sudo apt-get update $ sudo apt-get dist-upgrade
+
+Make sure python 3 is installed: Check python version with
+
+$ ls /usr/bin/python*
+
+Install dependencies
+
+$ sudo apt install git
+$ sudo apt install python3-pip
+$ sudo apt install python3-venv
+$ git clone https://github.com/TheHarmacist/composite-controller
+$ cd composite-controller
+$ python3 -m venv venv 
+$ source venv/bin/activate 
+$ pip install -r requirements.txt
 
 ## Features
 
