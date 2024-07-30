@@ -14,12 +14,19 @@ $ ls /usr/bin/python*
 Install dependencies
 
 $ sudo apt install git
+
 $ sudo apt install python3-pip
+
 $ sudo apt install python3-venv
+
 $ git clone https://github.com/TheHarmacist/composite-controller
+
 $ cd composite-controller
+
 $ python3 -m venv venv 
+
 $ source venv/bin/activate 
+
 $ pip install -r requirements.txt
 
 ## Features
