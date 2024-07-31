@@ -177,7 +177,7 @@ sim_speedup_factor = 1
 # If you change the temp_scale, all settings in this file are assumed to
 # be in that scale.
 temp_scale          = "c" # c = Celsius | f = Fahrenheit - Unit to display
-time_scale_slope    = "h" # s = Seconds | m = Minutes | h = Hours - Slope displayed in temp_scale per time_scale_slope
+time_scale_slope    = "m" # s = Seconds | m = Minutes | h = Hours - Slope displayed in temp_scale per time_scale_slope
 time_scale_profile  = "m" # s = Seconds | m = Minutes | h = Hours - Enter and view target time in time_scale_profile
 
 # emergency shutoff the profile if this temp is reached or exceeded.
@@ -276,4 +276,4 @@ kiln_profiles_directory = os.path.abspath(os.path.join(os.path.dirname( __file__
 # of the elements are used max.
 # To prevent throttling, set throttle_percent to 100.
 throttle_below_temp = 20
-throttle_percent = 20
+throttle_percent = 100
