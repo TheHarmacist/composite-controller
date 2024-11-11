@@ -29,6 +29,14 @@ $ source venv/bin/activate
 
 $ pip install -r requirements.txt
 
+To Launch
+==========
+$ cd composite-controller
+
+$ python3 -m venv venv 
+
+$ source venv/bin/activate; ./kiln-controller.py 
+
 ## Features
 
   * supports [many boards](https://github.com/jbruce12000/kiln-controller/blob/main/docs/supported-boards.md) into addition to raspberry pi
