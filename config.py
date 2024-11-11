@@ -275,5 +275,5 @@ kiln_profiles_directory = os.path.abspath(os.path.join(os.path.dirname( __file__
 # control window and below throttle_below_temp, only throttle_percent
 # of the elements are used max.
 # To prevent throttling, set throttle_percent to 100.
-throttle_below_temp = 20
+throttle_below_temp = 0
 throttle_percent = 100
