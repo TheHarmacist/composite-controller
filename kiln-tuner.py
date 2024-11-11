@@ -185,7 +185,7 @@ def calculate(filename, tangentdivisor, showplot):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Kiln tuner')
     parser.add_argument('-c', '--calculate_only', action='store_true')
-    parser.add_argument('-t', '--target_temp', type=float, default=400, help="Target temperature")
+    parser.add_argument('-t', '--target_temp', type=float, default=200, help="Target temperature")
     parser.add_argument('-d', '--tangent_divisor', type=float, default=8, help="Adjust the tangent calculation to fit better. Must be >= 2 (default 8).")
     parser.add_argument('-s', '--showplot', action='store_true', help="draw plot so you can see tanget line and possibly change")
     args = parser.parse_args()
