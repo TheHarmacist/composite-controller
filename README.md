@@ -31,11 +31,11 @@ $ pip install -r requirements.txt
 
 To Launch
 ==========
-$ cd composite-controller
+cd composite-controller
 
-$ python3 -m venv venv 
+python3 -m venv venv 
 
-$ source venv/bin/activate; ./kiln-controller.py 
+source venv/bin/activate; ./kiln-controller.py 
 
 ## Features
 
